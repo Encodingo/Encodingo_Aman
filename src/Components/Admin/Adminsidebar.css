@@ -1,0 +1,54 @@
+.admin-sidebar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem;
+}
+
+.custom-tree-item {
+  font-size: 4rem; /* Increase the font size to make the TreeItem bigger */
+  /* Add additional styling for the TreeItem component */
+}
+
+.custom-sub-tree-item {
+  font-size: 14px; /* Increase the font size for the sub TreeItems */
+  /* Add additional styling for the sub TreeItem components */
+}
+
+.admin-sidebar > a:first-child {
+  padding: 0;
+}
+.admin-sidebar > a > img {
+  width: 80%;
+  transition: all 0.5s;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.admin-sidebar > a > img:hover {
+  filter: drop-shadow(0 0 20px tomato);
+}
+.admin-sidebar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  font: 400 1rem "Roboto";
+  padding: 3rem;
+  transition: all 0.5s;
+}
+.admin-sidebar a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+
+.admin-sidebar a > P {
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.admin-sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.admin-MuiTypography-root {
+  background-color: #fff !important;
+}

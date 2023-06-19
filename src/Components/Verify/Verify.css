@@ -1,0 +1,33 @@
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(36, 33%, 94%);
+  }
+  
+  .otp-container>  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .otp-container> input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 90%;
+  }
+  
+  .otp-container> button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
